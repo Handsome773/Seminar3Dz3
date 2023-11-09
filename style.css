@@ -2,18 +2,36 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background-color: #fff;
 }
-.top_menu {
+.top__menu {
   background: #fff;
+  width: 1920px;
+  height: 700px;
+  flex-shrink: 0;
 }
 .header {
-  padding 40px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  margin-left: -57px;
 }
+
+.header_img {
+  width: 35px;
+  height: 40px;
+  flex-shrink: 0;
+  display: flex;
+}
+
 .header_p {
-  color: #000;
+  font-family: Gilroy-Bold;
   font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .colortext {
   color: #f25822;
@@ -30,8 +48,12 @@ body {
   list-style-type: none;
 }
 .link__menu a {
-  list-style-type: none;
   color: #000;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   text-decoration: none;
 }
 .link__menu1 {
@@ -39,22 +61,71 @@ body {
   list-style-type: none;
 }
 .link__menu1 a {
-  list-style-type: none;
   color: #f25822;
+  font-family: Gilroy-SemiBold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   text-decoration: none;
+}
+.top_content {
+  padding-top: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .text__h1 {
   color: #000;
+  font-family: Gilroy-Bold;
   font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .text__top__main {
   color: #888;
+  font-family: Gilroy-Medium;
   font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 17px;
 }
 
+.top_btn {
+  margin-top: 380px;
+  width: 140px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  color: #fff;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.top_p {
+  color: #aaa;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.top_img {
+  width: 544.814px;
+  height: 374.843px;
+  flex-shrink: 0;
+}
 .top_logo {
   background: #fff;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 63px;
+  margin-top: 250px;
 }
